@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Fira Code', monospace;
+}
+
+.container {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.code-handwriting {
+  font-size: 24px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.keyword {
+  color: #ff7b72;
+}
+
+.variable {
+  color: #79c0ff;
+}
+
+.operator {
+  color: #f5f5f5;
+}
+
+.string {
+  color: #a5d6ff;
+}
+
+.punctuation {
+  color: #8b949e;
+}
